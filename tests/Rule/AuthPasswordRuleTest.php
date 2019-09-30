@@ -2,7 +2,7 @@
 
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
-use Illuminate\Contracts\Translation\Translator;
+use Illuminate\Translation\Translator;
 use Illuminate\Hashing\BcryptHasher;
 use Mjelamanov\Laravel\AuthPassword\AbstractAuthPasswordTest;
 
