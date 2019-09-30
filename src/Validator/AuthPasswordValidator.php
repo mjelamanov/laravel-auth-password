@@ -5,7 +5,7 @@ namespace Mjelamanov\Laravel\AuthPassword\Validator;
 use Mjelamanov\Laravel\AuthPassword\Rule\RuleFactoryInterface;
 
 /**
- * Class AuthPasswordValidator
+ * Class AuthPasswordValidator.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */

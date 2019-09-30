@@ -2,15 +2,15 @@
 
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
+use Prophecy\Argument;
+use InvalidArgumentException;
+use Orchestra\Testbench\TestCase;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use InvalidArgumentException;
 use Mjelamanov\Laravel\AuthPassword\Exception\RuleCreationFailedException;
-use Orchestra\Testbench\TestCase;
-use Prophecy\Argument;
 
 /**
- * Class RuleFactoryTest
+ * Class RuleFactoryTest.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */

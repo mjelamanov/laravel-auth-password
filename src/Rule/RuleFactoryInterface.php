@@ -5,7 +5,7 @@ namespace Mjelamanov\Laravel\AuthPassword\Rule;
 use Illuminate\Contracts\Validation\Rule;
 
 /**
- * Interface RuleFactoryInterface
+ * Interface RuleFactoryInterface.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */

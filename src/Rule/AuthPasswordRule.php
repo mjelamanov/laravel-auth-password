@@ -2,14 +2,14 @@
 
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
-use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Hashing\Hasher;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Contracts\Validation\ImplicitRule;
 use Mjelamanov\Laravel\AuthPassword\Validator\AuthPasswordValidator;
 
 /**
- * Class AuthPasswordRule
+ * Class AuthPasswordRule.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -59,19 +59,20 @@ class AuthPasswordRule implements ImplicitRule
     public function setTranslationKey(string $translationKey): AuthPasswordRule
     {
         $this->translationKey = $translationKey;
+
         return $this;
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function passes($attribute, $value)
     {
-        if (!$this->authUser) {
+        if (! $this->authUser) {
             return false;
         }
 
-        if (!is_string($value) || empty($value)) {
+        if (! is_string($value) || empty($value)) {
             return false;
         }
 
@@ -79,7 +80,7 @@ class AuthPasswordRule implements ImplicitRule
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function message()
     {

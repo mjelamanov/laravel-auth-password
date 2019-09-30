@@ -3,15 +3,15 @@
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
 use Illuminate\Container\Container;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Contracts\Auth\Factory;
 use Illuminate\Contracts\Auth\Guard;
-use Illuminate\Contracts\Container\BindingResolutionException;
+use Illuminate\Contracts\Auth\Factory;
 use Illuminate\Contracts\Validation\Rule;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Container\BindingResolutionException;
 use Mjelamanov\Laravel\AuthPassword\Exception\RuleCreationFailedException;
 
 /**
- * Class RuleFactory
+ * Class RuleFactory.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -33,7 +33,7 @@ class RuleFactory implements RuleFactoryInterface
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function createRule(?string $guard = null): Rule
     {

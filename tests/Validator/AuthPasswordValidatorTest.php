@@ -5,14 +5,14 @@ namespace Mjelamanov\Laravel\AuthPassword\Validator;
 use Mjelamanov\Laravel\AuthPassword\AbstractAuthPasswordTest;
 
 /**
- * Class AuthPasswordValidatorTest
+ * Class AuthPasswordValidatorTest.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
 class AuthPasswordValidatorTest extends AbstractAuthPasswordTest
 {
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function getRule(?string $guard = null)
     {
