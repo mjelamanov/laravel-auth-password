@@ -1,0 +1,48 @@
+{
+    "name": "mjelamanov/laravel-auth-password",
+    "description": "A laravel authenticated user's password validator.",
+    "keywords": [
+        "laravel",
+        "authenticated",
+        "current",
+        "auth",
+        "password",
+        "validator"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/validation": "^5.8 || ^6.0",
+        "illuminate/container": "^5.8 || ^6.0",
+        "illuminate/support": "^5.8 || ^6.0",
+        "illuminate/translation": "^5.8 || ^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5 || ^8.0",
+        "orchestra/testbench": "^3.8 || ^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirlan Jelamanov",
+            "email": "mirlan.jelamanov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mjelamanov\\Laravel\\AuthPassword\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mjelamanov\\Laravel\\AuthPassword\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mjelamanov\\Laravel\\AuthPassword\\ServiceProvider"
+            ]
+        }
+    }
+}
