@@ -30,10 +30,6 @@ branches:
 before_install:
   - phpenv config-rm xdebug.ini || true
 
-before_script:
-  - composer self-update --no-progress --no-interaction --quiet
-  - composer install --no-interaction --prefer-source
-
 install:
   - travis_retry composer require "illuminate/validation:${LARAVEL}" "illuminate/container:${LARAVEL}" "illuminate/support:${LARAVEL}" "illuminate/translation:${LARAVEL}" "phpunit/phpunit:${PHPUNIT}" "orchestra/testbench:${TESTBENCH}" --prefer-dist --no-interaction --no-suggest
 
