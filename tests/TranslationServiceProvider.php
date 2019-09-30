@@ -5,7 +5,7 @@ namespace Mjelamanov\Laravel\AuthPassword;
 use Illuminate\Translation\FileLoader;
 
 /**
- * Class TranslationServiceProvider
+ * Class TranslationServiceProvider.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -14,7 +14,7 @@ class TranslationServiceProvider extends \Illuminate\Translation\TranslationServ
     const TEST_TRANSLATIONS_PATH = __DIR__ . '/resources/lang';
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function registerLoader()
     {

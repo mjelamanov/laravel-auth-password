@@ -2,15 +2,15 @@
 
 namespace Mjelamanov\Laravel\AuthPassword;
 
-use Illuminate\Contracts\Auth\Authenticatable;
+use Orchestra\Testbench\TestCase;
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Translation\TranslationServiceProvider as OriginalTranslationServiceProvider;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Mjelamanov\Laravel\AuthPassword\Rule\AuthPasswordRule;
-use Orchestra\Testbench\TestCase;
+use Illuminate\Translation\TranslationServiceProvider as OriginalTranslationServiceProvider;
 
 /**
- * Class AbstractAuthPasswordTest
+ * Class AbstractAuthPasswordTest.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -34,7 +34,7 @@ abstract class AbstractAuthPasswordTest extends TestCase
     protected $translator;
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function setUp(): void
     {
@@ -46,7 +46,7 @@ abstract class AbstractAuthPasswordTest extends TestCase
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function getPackageProviders($app)
     {
@@ -61,7 +61,7 @@ abstract class AbstractAuthPasswordTest extends TestCase
     abstract protected function getRule(?string $guard = null);
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function overrideApplicationProviders($app)
     {

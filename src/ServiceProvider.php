@@ -8,7 +8,7 @@ use Mjelamanov\Laravel\AuthPassword\Rule\RuleFactoryInterface;
 use Mjelamanov\Laravel\AuthPassword\Validator\AuthPasswordValidator;
 
 /**
- * Class ServiceProvider
+ * Class ServiceProvider.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -25,7 +25,7 @@ class ServiceProvider extends Provider
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function register()
     {

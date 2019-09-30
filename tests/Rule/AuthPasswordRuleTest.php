@@ -2,12 +2,12 @@
 
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
-use Illuminate\Translation\Translator;
 use Illuminate\Hashing\BcryptHasher;
+use Illuminate\Translation\Translator;
 use Mjelamanov\Laravel\AuthPassword\AbstractAuthPasswordTest;
 
 /**
- * Class AuthPasswordRuleTest
+ * Class AuthPasswordRuleTest.
  *
  * @author Mirlan Jelamanov <mirlan.jelamanov@gmail.com>
  */
@@ -19,7 +19,7 @@ class AuthPasswordRuleTest extends AbstractAuthPasswordTest
     protected $factory;
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function setUp(): void
     {
@@ -29,7 +29,7 @@ class AuthPasswordRuleTest extends AbstractAuthPasswordTest
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected function getRule(?string $guard = null)
     {
