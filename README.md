@@ -1,6 +1,6 @@
 # Laravel auth password
 
-[![Build Status](https://travis-ci.com/mjelamanov/auth-password-validator.svg?branch=master)](https://travis-ci.com/mjelamanov/auth-password-validator)
+[![Build Status](https://travis-ci.com/mjelamanov/laravel-auth-password.svg?branch=master)](https://travis-ci.com/mjelamanov/laravel-auth-password)
 [![StyleCI](https://github.styleci.io/repos/211689065/shield?branch=master)](https://github.styleci.io/repos/211689065)
 [![Latest Stable Version](https://poser.pugx.org/mjelamanov/laravel-auth-password/version)](https://packagist.org/packages/mjelamanov/laravel-auth-password)
 [![License](https://poser.pugx.org/mjelamanov/laravel-auth-password/license)](https://packagist.org/packages/mjelamanov/laravel-auth-password)
