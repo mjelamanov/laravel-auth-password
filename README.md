@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/mjelamanov/laravel-auth-password/version)](https://packagist.org/packages/mjelamanov/laravel-auth-password)
 [![License](https://poser.pugx.org/mjelamanov/laravel-auth-password/license)](https://packagist.org/packages/mjelamanov/laravel-auth-password)
 
-This package allows you to validate an authenticated user's password.
+This package allows you to validate an authenticated user's password. For laravel 6.0 and above please use the native [password](https://laravel.com/docs/6.x/validation#rule-password) rule.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This package allows you to validate an authenticated user's password.
 ## Requirements
 
 - PHP 7.1 or above.
-- Laravel 5.8 or above.
+- Laravel 5.8 or 6.0.
 
 ## Installation
 
