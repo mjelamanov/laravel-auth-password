@@ -3,11 +3,11 @@
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
 use Illuminate\Container\Container;
-use Illuminate\Contracts\Auth\Guard;
-use Illuminate\Contracts\Auth\Factory;
-use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\Factory;
+use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Container\BindingResolutionException;
+use Illuminate\Contracts\Validation\Rule;
 use Mjelamanov\Laravel\AuthPassword\Exception\RuleCreationFailedException;
 
 /**

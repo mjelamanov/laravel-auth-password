@@ -2,8 +2,8 @@
 
 namespace Mjelamanov\Laravel\AuthPassword\Rule;
 
-use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Contracts\Validation\ImplicitRule;
 use Mjelamanov\Laravel\AuthPassword\Validator\AuthPasswordValidator;
